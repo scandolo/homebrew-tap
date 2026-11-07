@@ -12,7 +12,7 @@ class Timelens < Formula
   # timelens.app: a tiny launcher signed with a Developer ID, so Privacy settings show "timelens"
   # (built from launcher/ in the repo by launcher/build.sh)
   resource "launcher" do
-    url "https://github.com/scandolo/timelens/releases/download/v0.2.0/timelens-launcher.zip"
+    url "https://github.com/scandolo/timelens/releases/download/v0.2.0/timelens-launcher-0.2.0.zip"
     sha256 "ea25708d54d1e58c0a0c8b70e3703edcac1fe15ecd2bb5234c3532d14fcc4a54"
   end
 

@@ -2,8 +2,8 @@ class Timelens < Formula
   desc "Mac time tracker that labels each minute of your screen with a decision model"
   homepage "https://github.com/scandolo/timelens"
   url "https://github.com/scandolo/timelens.git",
-      tag:      "v0.2.0",
-      revision: "6ee98b6926744cbb3919725b0749f7339f64dd64"
+      tag:      "v0.2.1",
+      revision: "78fe4c1b2745f5d3aef97cdbfb0408c02248cccc"
   license "MIT"
 
   depends_on "uv"
@@ -12,7 +12,7 @@ class Timelens < Formula
   # timelens.app: a tiny launcher signed with a Developer ID, so Privacy settings show "timelens"
   # (built from launcher/ in the repo by launcher/build.sh)
   resource "launcher" do
-    url "https://github.com/scandolo/timelens/releases/download/v0.2.0/timelens-launcher-0.2.0.zip"
+    url "https://github.com/scandolo/timelens/releases/download/v0.2.1/timelens-launcher-0.2.1.zip"
     sha256 "ea25708d54d1e58c0a0c8b70e3703edcac1fe15ecd2bb5234c3532d14fcc4a54"
   end
 

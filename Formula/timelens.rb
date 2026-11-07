@@ -2,8 +2,8 @@ class Timelens < Formula
   desc "Mac time tracker that labels each minute of your screen with a decision model"
   homepage "https://github.com/scandolo/timelens"
   url "https://github.com/scandolo/timelens.git",
-      tag:      "v0.1.0",
-      revision: "92000fcd5a65cc0ddbdcb79caaccedd733192d5a"
+      tag:      "v0.1.1",
+      revision: "cc55687e9915e467a1509e724ef29e3d3fe20187"
   license "MIT"
 
   depends_on "uv"
